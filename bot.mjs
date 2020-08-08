@@ -1,6 +1,6 @@
 
-import { Client } from 'discord.js'
-const client = new Client()
+import Discord from 'discord.js-light'
+const client = new Discord.Client()
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`)
