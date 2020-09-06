@@ -23,6 +23,10 @@ And now run the bot with your Discord token following the file name.
 
 And that's it.
 
+### Another Dumb Bot
+
+For another dumb bot, check out [Smiler](https://github.com/Senither/Smiler-bot), the bot that replies with a smiley face to everything.
+
 ### License 
 
 Truer bot is open-sourced software licensed uder the [WTFPL](license.md) license, just do what the fuck you want to.
