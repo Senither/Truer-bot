@@ -16,6 +16,13 @@ const generateReply = () => {
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`)
+  client.user.setPresence({
+   status: "idle",
+   activity: {
+     name: "@truer",
+     type: "WATCHING",
+    },
+  });
 })
 
 client.on('message', message => {
