@@ -17,7 +17,7 @@ const generateReply = () => {
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`)
   client.user.setPresence({
-   status: "idle",
+   status: "online",
    activity: {
      name: "@truer",
      type: "WATCHING",
