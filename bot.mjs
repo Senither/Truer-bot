@@ -16,11 +16,19 @@ const generateReply = () => {
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`)
+
+  client.user.setPresence({
+    status: 'online',
+    activity: {
+      name: '@truer',
+      type: 'WATCHING',
+    },
+  })
 })
 
 client.on('message', message => {
   if (message.mentions.users.has(client.user.id)) {
-    message.reply(generateReply());
+    message.reply(generateReply())
   }
 })
 
