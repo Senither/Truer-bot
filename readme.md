@@ -25,7 +25,7 @@ And that's it.
 
 ### Another Dumb Bot
 
-For another dumb bot, check out [Smiler](https://github.com/Senither/Smiler-bot), the bot that replies with a smiley face to everything.
+For another dumb bot, check out [Smiler](https://github.com/Senither/Smiler-bot), the bot that replies with a smiley face to everything, or [Falser](https://github.com/senither/Falser-bot) which is a bot that replies with "False!" to everything.
 
 ### License 
 
